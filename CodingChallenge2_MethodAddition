@@ -15,9 +15,9 @@ public class MethodAddition {
 		
 		System.out.println("Enter second number");
 		int num2 = in.nextInt();
+		in.close();
 		
-		System.out.print("Addition =>  ");
-		System.out.println(obj.performAddition(num1,num2)); 
+		System.out.println("Addition => "+num1+"+"+num2+" = "+obj.performAddition(num1,num2));
 
 	}
 
