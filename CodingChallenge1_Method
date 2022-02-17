@@ -1,0 +1,17 @@
+class Main{
+	void printString() {
+		System.out.println("Hello Great Learning");
+	}
+}
+
+
+public class MethodClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Main m = new Main();
+		m.printString();
+
+	}
+
+}
