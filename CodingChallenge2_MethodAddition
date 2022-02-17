@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class MethodAddition {
+
+	public int performAddition(int num1,int num2) {
+		return num1 + num2;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MethodAddition obj = new MethodAddition();
+		Scanner in = new Scanner(System.in);
+		
+		System.out.println("Enter first number");
+		int num1 = in.nextInt();
+		
+		System.out.println("Enter second number");
+		int num2 = in.nextInt();
+		
+		System.out.print("Addition =>  ");
+		System.out.println(obj.performAddition(num1,num2));
+
+	}
+
+}
