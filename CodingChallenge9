@@ -1,0 +1,17 @@
+public class ClassA 
+
+{
+
+	void copyMe() {
+		System.out.println(" Inside copy me method");
+	}
+    public static void main(String args[])
+
+    {
+
+    	ClassA obj = new ClassA();
+    	obj.copyMe();
+
+    }
+
+}
