@@ -1,0 +1,33 @@
+class InheritanceA{
+	public void circleArea(int radius) {
+		double area = (3.14)* (radius*radius);
+		System.out.println(" Area of the circle is "+area);
+	}
+}
+
+class InheritanceB extends InheritanceA {
+	public void rectangleArea(int len,int width) {
+		int area = len * width;
+		System.out.println(" Area of the rectangle is "+area);
+	}
+}
+
+class InheritanceC extends InheritanceB {
+	public void triangleArea(int base,int height) {
+		double area = (0.5) * (base*height);
+		System.out.println(" Area of the triangle  is "+area);
+	}
+}
+
+public class Challenge10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		InheritanceC objc = new InheritanceC();
+		objc.circleArea(23);
+		objc.rectangleArea(2, 4);
+		objc.triangleArea(2, 2);
+
+	}
+
+}
